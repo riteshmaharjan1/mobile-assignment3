@@ -38,6 +38,8 @@ class MainActivity : AppCompatActivity() {
         tableRow.addView(androidVersionText)
         tableRow.addView(androidCodeNameText)
 
+        androidVerison.text.clear()
+        androidCodeName.text.clear()
         tableLayout.addView(tableRow)
 
     }
